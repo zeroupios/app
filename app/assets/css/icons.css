@@ -1,0 +1,137 @@
+/* Material Icons Font (for MD theme) */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/MaterialIcons-Regular.eot);
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(../fonts/MaterialIcons-Regular.html) format('woff2'),
+       url(../fonts/MaterialIcons-Regular.woff) format('woff'),
+       url(../fonts/MaterialIcons-Regular.ttf) format('truetype');
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+}
+
+/* Framework7 Icons Font (for iOS theme) */
+@font-face {
+  font-family: 'Framework7 Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Framework7Icons-Regular.eot");
+  src: url("../fonts/Framework7Icons-Regular.html") format("woff2"),
+       url("../fonts/Framework7Icons-Regular.woff") format("woff"),
+       url("../fonts/Framework7Icons-Regular.ttf") format("truetype");
+}
+.f7-icons {
+  font-family: 'Framework7 Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  text-align: center;
+}
+
+.img-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+}
+
+.instal-icon {
+  width: 128px;
+  height: 128px;
+}
+
+.dl-logo {
+  width: 400px;
+}
+
+.reklam-icon {
+  width: 350px;
+  text-align: center;
+  border-radius: 3.5%;
+}
+.fontk {
+  font-family: "Droid Arabic Kufi" !important;
+}
+
+::-webkit-scrollbar {
+  width: 0px !important;
+}
+
+.preloader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: #fff;
+  text-align:center;
+}
+#pre-icon{
+  text-align:center;
+  margin-top:45vh;
+  font-size:50px;
+  color:#989898;
+}
+
+
+.w3-modal{z-index:3;display:none;padding-top:70px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+			.w3-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:400px;direction:rtl}
+			@media (max-width:600px){.w3-modal-content{width:80%!important}.w3-modal{padding-top:40px}
+			.w3-dropdown-hover.w3-mobile .w3-dropdown-content,.w3-dropdown-click.w3-mobile .w3-dropdown-content{position:relative}	
+			.w3-hide-small{display:none!important}.w3-mobile{display:block;width:100%!important}.w3-bar-item.w3-mobile,.w3-dropdown-hover.w3-mobile,.w3-dropdown-click.w3-mobile{text-align:center}
+			.w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .w3-btn,.w3-dropdown-hover.w3-mobile .w3-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .w3-btn,.w3-dropdown-click.w3-mobile .w3-button{width:100%}}
+			@media (max-width:768px){.w3-modal-content{width:400px}.w3-modal{padding-top:60px}}
+			@media (min-width:993px){.w3-hide-large{display:none!important}.w3-sidebar.w3-collapse{display:block!important}}
+			.w3-teal,.w3-hover-teal:hover{color:#fff!important;    background-color: #2d3131!important;
+			}
+			.w3-container,.w3-panel{padding:0.01em 16px;    text-align: right;}
+			.w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
+			.w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
+			
+			.w3-display-topleft{    position: absolute;
+				left: 6px;
+				top: 4px;}.w3-display-topright{position:absolute;right:0;top:0}
+				
+				.close:not(:disabled):not(.disabled) {
+				cursor: pointer;
+			}.close {
+				float: right;
+				font-size: 1.5rem;
+				font-weight: 700;
+				line-height: 1;
+				color: #fff;
+				text-shadow: 0 1px 0 #fff;
+			  
+			}
